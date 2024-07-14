@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day - 2 Operators</title>
+</head>
+<body>
+    <h2>Operators in Js</h2>
+</body>
+<script>
+// Acitivity - 1 Arithmetic Operations
+    console.log( 6 + 5);
+    console.log(6 - 5);
+    console.log(5*8);
+    console.log(12/3);
+    console.log(13%3);
+    
+    // Activity 2 : Assignment Operators
+     let z = 5;
+     let sum = 0;
+     sum += z;
+     console.log(sum);
+
+     //Task 2:
+     let d = 8;
+     let subt = 0;
+     d -= subt;
+     console.log(d);
+
+    //  Activity 3 -- Comparison Operators
+    let h = 6;
+    let i = 80;
+   if( i > h){
+    console.log("Greater than Operator ");
+   }else{
+    console.log("Less than Operator ");
+    }
+
+    // Task 9:
+    let num1 = 34;
+    let num2 = 34;
+    if(num1 >= num2){
+        console.log("Greater than equal to Operator in Js");
+    }
+    if(num1 <= num2){
+        console.log("less than equal to Operator in Js");
+    }
+
+    //Task 10 :
+    let num3 = 32;
+    let num4 = 33
+    console.log("Swapping one number into another ", num3 == num4); //33
+    console.log("Checking whether two numbers are equal " , num3 === num4); //false;
+
+
+    // Activity 4: Logical Operator 
+    let x = 6;
+    let y = 5;
+    if(x > 1 && y < 10){
+        console.log("Logical And Operator");
+    }
+
+    //Task: or logical Operator 
+    if(x > 6 || y < 10){
+        console.log("Logical operator");
+    }
+
+    if(x != y){
+        console.log("x is not equal to y");
+    }
+
+    //Activity 5 -- Ternary Operator 
+    let num = 5 > 0 ? "positive" : "negative";
+    console.log(num);
+
+
+    //Feature Request 
+    // 1. Arithmetic Operations Script: 
+    function performOperations(a, b){
+    
+        console.log(`Addtion of two number ${a} and ${b} : ${a+b}`);
+        console.log(`Subtraction of two number ${a} and ${b} : ${a-b}`);
+        console.log(`Multiplication of two number ${a} and ${b} : ${a*b}`);
+        console.log(`Division of two number ${a} and ${b} : ${a/b}`);
+        console.log(`Modulos of two number ${a} and ${b} : ${a%b}`);
+    }
+
+    const num5 = 5;
+    const num6 = 5;
+    performOperations(num5, num6);
+    
+    // Comparison and Logical Operators and combines --
+    function performLogicalAndComparisonOperations(a, b){
+
+        console.log(`Less than and operator in Js: ${a < 10 && a < 10}`);
+        console.log(`Greater than and operator in JS:  ${a > 10 && a > 20}`);
+        console.log(`Greater than equal to operator in JS:  ${a >= 10 && a >= 20}`);
+        console.log(`Less than equal to operator in JS:  ${a <= 10 && a <= 20}`);
+
+        console.log(`Less than and operator in Js: ${a < 10 || a < 10}`);
+        console.log(`Greater than and operator in JS:  ${a > 10 || a > 20}`);
+        console.log(`Greater than equal to operator in JS:  ${a >= 10 || a >= 20}`);
+        console.log(`Less than equal to operator in JS:  ${a <= 10 || a <= 20}`);
+
+
+    }
+
+    performLogicalAndComparisonOperations(20, 30);
+
+
+    //Ternary Operations 
+    function determineNumberPositveOrNegative(num){
+        const res = num > 0 ? "positive" : "negative";
+        console.log(`The ${num} is : ${res}`);
+    }
+
+    determineNumberPositveOrNegative(-2);
+
+
+
+     
+
+
+
+</script>
+</html>
