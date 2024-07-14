@@ -14,4 +14,21 @@ _Activity 5_:  Reassining value of **const** <br>
 _1. Varibale types **Console.log**_  <br>
 _2. Reassignment Demo of **const and let**_
 
+### Day 2: Operators
+_Acitivity 1_ : **Arithmetic Operations** <br>
+_Acitivity 2_ : **Assignment Operators** <br>
+_Activity 3_ : **Comparison Operators** <br>
+_Activity4_: **Logical Operator** <br>
+_Activity5_: **Ternary Operator** <br>
+
+**Feature Request** <br>
+_1_. **Arithmetic Operations Script** <br>
+_2_. **Comparison and Logical Script** <br>
+_3_. **Ternay Operator Script** <br>
+
+
+
+
+
+
 
