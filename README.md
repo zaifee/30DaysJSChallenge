@@ -26,6 +26,13 @@ _1_. **Arithmetic Operations Script** <br>
 _2_. **Comparison and Logical Script** <br>
 _3_. **Ternay Operator Script** <br>
 
+### Day 3: Control Flow 
+_1_. **Actitviy 1** : If-Else Statement <br>
+_2_. **Actitviy 2** : Nested If else <br>
+_3_. **Actitviy 3** :  Switch Case <br>
+_4_.  **Activity 4** : Conditional Ternary Operator <br>
+_5_.  **Activity 5** : Combining Conditions
+
 
 
 
